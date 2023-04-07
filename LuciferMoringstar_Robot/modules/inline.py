@@ -86,7 +86,7 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [[
-        InlineKeyboardButton('Support Group', url='t.me/HTDGROUPFORMOVIES'),
+        InlineKeyboardButton('Support Group', url='https://t.me/codexsupport_backup'),
         InlineKeyboardButton('More Botz', url='t.me/howtodoyt')
         ],[
         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
